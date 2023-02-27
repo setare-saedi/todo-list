@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(251, 244, 235);
+}
+h1{
+    text-align: center;    
+}
+.todo-input {
+    border: none;
+}
+.todo-input:focus{
+    outline-style: none;
+}
+.todo-form{
+    border: 1px solid gray;
+    background-color: white;
+    width: 250px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    margin: auto;
+    border-radius: 5px;
+}
+.form-container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.btn-form{
+    background-color: white;
+    border: none;
+}
+select{
+    width: 150px;
+    height: 34px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+select:focus{
+   outline-style: none;
+}
+ul{
+    list-style: none; 
+    width: 300px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+ul li{ 
+    margin: 2px;  
+    font-weight: bold;
+    font-size: larger;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid rgb(220, 220, 220);
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+button{
+    border: none;
+    background-color: white;
+   float: right;
+
+}
