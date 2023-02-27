@@ -20,13 +20,14 @@ document.querySelector(".add-btn").addEventListener("click",addTodoList);
 
 // function
 function showLocalStorage(){
-    for (let i = 0; i < data.todo.length ; i++) {
-        let value = data.todo[i];
-        addToDom(value);    
-    }
+   
     for (let i = 0; i < data.completed.length ; i++) {
         let value = data.completed[i];
         addToDom(value,true);    
+    }
+    for (let i = 0; i < data.todo.length ; i++) {
+        let value = data.todo[i];
+        addToDom(value);    
     }
 }
 

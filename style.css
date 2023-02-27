@@ -47,7 +47,7 @@ ul{
     width: 300px;
     margin: 10px auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 ul li{ 
     margin: 2px;  
